@@ -1,0 +1,21 @@
+.profile {
+    text-align: center;
+    padding: 10px;
+}
+
+.profile-pic {
+    width: 120px; /* Adjust as needed */
+    height: 120px; /* Make it uniform */
+    object-fit: cover; /* Prevents stretching */
+    border-radius: 10%; /* Makes it triangular */
+    border: 2px solid black; /* Optional border */
+}
+
+.profile-box img {
+    width: 120px; /* Set the image width to 120px */
+    height: 120px; /* Set the image height to 120px to maintain proportion */
+    border-radius: 10%; /* Make the image triangular */
+    object-fit: cover;
+    display: block; /* Ensure the image is treated as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
